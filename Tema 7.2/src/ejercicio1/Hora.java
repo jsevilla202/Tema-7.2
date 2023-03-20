@@ -8,15 +8,15 @@ public class Hora {
 	/**
 	 * Parametro de hora
 	 */
-	int hora;
+	private int hora;
 	/**
 	 * Parametro de minuto
 	 */
-	int minuto;
+	private int minuto;
 	/**
 	 * Parametro de segundo
 	 */
-	int segundo;
+	private int segundo;
 	
 	/**
 	 * Constructor por defecto

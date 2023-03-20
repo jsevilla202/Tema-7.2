@@ -8,7 +8,7 @@ public class Contador {
 	/**
 	 * Variable para el contador
 	 */
-	int cont;
+	private int cont;
 
 	/**
 	 * Constructor por defecto
