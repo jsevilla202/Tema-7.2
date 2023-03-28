@@ -38,13 +38,15 @@ public class Main {
 			case 4: 
 				System.out.print("Inserte los segundos a incrementar: ");
 				incremento  = sc.nextInt();
-				horas.incrementaSegundo(incremento);
+				for(int i = 0; i<incremento; i++) {
+					horas.incrementaSegundo();
+				}
 				break;
 			case 5:
 				System.out.println("Saliendo.....");
 				break;
 			default:
-				System.out.println("ERROR: Opción no valid");
+				System.out.println("ERROR: Opción no valida");
 			}
 			
 			System.out.println();
