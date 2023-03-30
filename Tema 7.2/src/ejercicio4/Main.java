@@ -40,7 +40,6 @@ public class Main {
 					if (!discos[i].getCodigo().equals("LIBRE")) {
 						System.out.println();
 						System.out.println(discos[i].toString());
-						;
 					}
 				}
 				break;
